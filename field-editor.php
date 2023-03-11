@@ -80,4 +80,3 @@ if(is_woocommerce_active()) {
 		return new THWCFE_Functions();
 	}	
 }
-

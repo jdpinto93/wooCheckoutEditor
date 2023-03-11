@@ -50,7 +50,7 @@ msgid "Additional Fields"
 msgstr ""
 
 msgid "Billing Details"
-msgstr ""
+msgstr "Direccion de Facturacion"
 
 msgid "Shipping Details"
 msgstr ""

@@ -207,7 +207,7 @@ class THWCFE_Admin_Utils extends WCFE_Checkout_Fields_Utils{
 	
 	public function get_default_sections($copy_free_version_settings=false){
 		$checkout_fields = $this->get_default_checkout_fields('', $copy_free_version_settings);
-		$default_sections = array('billing' => 'Billing Details', 'shipping' => 'Shipping Details', 'additional' => 'Additional Details');
+		$default_sections = array('billing' => 'Direccion de Facturacion', 'shipping' => 'Direccion de Envio', 'additional' => 'Informacion Adicional');
 		$default_sections = apply_filters('thwcfe_default_checkout_sections', $default_sections);
 
 		$sections = array();
